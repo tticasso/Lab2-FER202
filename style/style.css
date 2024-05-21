@@ -1,0 +1,24 @@
+.feature-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.carouselExample {
+    height: 200px;
+}
+
+.product-card {
+    margin-bottom: 30px;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}

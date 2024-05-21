@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Interface</title>
+    <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./style/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Brand</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <a class="nav-link" href="sigin.html">Login</a>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action">Category1</a>
+                    <a href="#" class="list-group-item list-group-item-action">Category2</a>
+                    <a href="#" class="list-group-item list-group-item-action">Category3</a>
+                </div>
+            </div>
+            <div id="carouselExampleSlidesOnly" class="col-md-8 carousel slide" data-ride="carousel">
+                <div class="carousel-inner carouselExample">
+                    <div class="carousel-item active">
+                        <img src="https://hoanghamobile.com/tin-tuc/wp-content/uploads/2023/08/hinh-nen-bau-troi.jpg"
+                            class="d-block w-100" alt="Sky">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://i.pinimg.com/736x/85/01/99/85019951490fcb86fab550bab6a710e1.jpg"
+                            class="d-block w-100" alt="Placeholder 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="data:image/jpeg;base64,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"
+                            class="d-block w-100" alt="Placeholder 3">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleSlidesOnly" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleSlidesOnly" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6 product-card">
+                        <div class="card">
+                            <img src="https://hoanghamobile.com/tin-tuc/wp-content/uploads/2023/08/hinh-nen-bau-troi.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Product Name</h5>
+                                <p class="card-text">Description</p>
+                                <a href="#" class="btn btn-primary">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 product-card">
+                        <div class="card">
+                            <img src="https://hoanghamobile.com/tin-tuc/wp-content/uploads/2023/08/hinh-nen-bau-troi.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Product Name</h5>
+                                <p class="card-text">Description</p>
+                                <a href="#" class="btn btn-primary">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 product-card">
+                        <div class="card">
+                            <img src="https://hoanghamobile.com/tin-tuc/wp-content/uploads/2023/08/hinh-nen-bau-troi.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Product Name</h5>
+                                <p class="card-text">Description</p>
+                                <a href="#" class="btn btn-primary">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 product-card">
+                        <div class="card">
+                            <img src="https://hoanghamobile.com/tin-tuc/wp-content/uploads/2023/08/hinh-nen-bau-troi.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Product Name</h5>
+                                <p class="card-text">Description</p>
+                                <a href="#" class="btn btn-primary">Add To Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="feature-item">
+                    <span>Sản phẩm chất lượng</span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="feature-item">
+                    <span>Miễn phí giao hàng</span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="feature-item">
+                    <span>7 ngày hoàn trả</span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="feature-item">
+                    <span>Hỗ trợ 24/7</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="bg-light text-center py-3">
+        <p>Copyright © 2023 TungTK</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
